@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>S'inscrire</title>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <!DOCTYPE html>
+  <!-- Created By CodingNepal -->
+  <html lang="fr" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          
+          <!--====== Title ======-->
+          <title>S'inscrire</title>
+          
+          <meta name="description" content="">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+          <!--====== MAG POWER Solidaire Icon ======-->
+          <link rel="shortcut icon" href="Image/Icone.png" type="image/png">
+          
+          <!--====== Style CSS ======-->
+          <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="css/ARABEstyle.CSS">
+      
+          <!--====== Style Js ======-->
+          <script src="https://kit.fontawesome.com/b431b486e2.js" ></script>
+          <scrip src="js/jquery-3.4.1.min.js"></scrip>
+          <scrip src="js/app.js"></scrip>
+          <scrip src="js/form.js"></scrip>
+        
+     </head>
+     <body>
+        <header class="header">
+        
+            <div class="selected-lang">
+               
+                <span class="lang-txt"></span> <h5>+212 522 321 321</h5>  <i class="fa-solid fa-phone"></i>
+                </div>
+            <div class="selected-lang">
+                <span class="lang-txt"></span> <h5>contact@magpower.ma</h5>
+                <i class="fa-light fa-envelope"></i>
+                </div>
+                <div class="selected-lang">
+                    <span class="lang-txt"><a href="S'inscrire.html" class="de">FR</a></span>
+                    <img src="Image/france-svgrepo-com.svg">
+                </div>
+            
+            <div class="selected-lang">
+                <span class="lang-txt"></span><a href="التسجيل.html"  classe="de">AR</a>
+                <img src="Image/morocco-svgrepo-com.svg">
+                
+               
+            </div>
+            </header>
+            <nav>
+                <div class="logo">
+                   <img class="logo" src="image/logo.png" alt="MAG POWER Solidaire" width="150">
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                   <li><a  href="الرئيسي.html">الرئيسي</a></li>
+                   <li><a href="البرنامح.html">البرنامج</a></li>
+                   <li><a  href="حزمة-التضامن.html">حزمة التضامن</a></li>
+                   <li><a href="فضاء المقاول.html">فضاء المقاول</a></li>
+                   <li><a class="active" href="التسجيل.html">التسجيل</a></li>
+                </ul>
+             </nav>
+           
+      
+  
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="wrapper">
+            <div class="title">
+                استمارة التسجيل 
+            </div>
+        <form id="msform" name="formulaire" method="post" action="S'incrire.php" action="customers.services.2200@gmail.com
+        " onsubmit="MAG_POWER_SITE()" data-multi-step class="multi-step-form">
+            <!-- progressbar -->
+            <ul id="progressbar">
+                <li class="active">المرحلة 1</li>
+                <li>المرحلة 2</li>
+                <li>المرحلة 3 </li>
+            </ul>
+            <!-- fieldsets -->
+         
+            <fieldset>
+                <h2 class="fs-title">المرحلة 1</h2>
+                <h3 class="fs-subtitle">معلومات شخصية</h3>
+                <div class="inputfield">
+                    <label>النسب</label>
+                    <input type="text" class="input" id="Nom" name="firstName" for="firstName" required>
+                 </div>  
+                  <div class="inputfield">
+                    <label>الاسم</label>
+                    <input type="text" class="input" id="prenom" name="lastName">
+                 </div>  
+                 <div class="inputfield">
+                    <label>رقم البطاقة الوطنية</label>
+                  <input type="text" class="input" id="CNI" name="CNI">
+               </div> 
+               <div class="inputfield">
+                <label>تاريخ الازدياد</label>
+                  <input type="date" class="input" id="date" name="Date">
+               </div> 
+               <div class="inputfield">
+                <label>الحالة العائلية</label>
+                <div class="custom_select" id="Situation_Familiale" name="Situation_Familiale">
+                  <select>
+                    <option value="">اختيار </option>
+                  <option value="">عازب(ة)</option>
+                  <option value="">متزوج(ة)</option>
+                  <option value="">مطلق(ة)</option>
+                  <option value="">أرمل(ة)</option>
+  
+                  </select>
+                </div> </div>
+                <input type="button" name="next" class="next action-button" value="التالي"/>
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">المرحلة 2 </h2>
+                <h3 class="fs-subtitle">معلومات التواصل </h3>
+                <div class="inputfield">
+                    <label>الجنس</label>
+                    <div class="custom_select" id="genre" name="genre">
+                      <select>
+                        <option value="">اختيار </option>
+                        <option value="male"> رجل </option>
+                        <option value="female">امرأة</option>
+                </select>
+                      </select>
+                    </div>
+                 </div> 
+                 <div class="inputfield">
+                    <label>رقم الهاتف</label>
+                  <input type="telephone"class="input" id="phone" name="phone" type="tel">
+               </div> 
+              <div class="inputfield">
+                <label>البريد الاكتروني</label>
+                  <input type="email" class="input" id="email" name="email">
+               </div> 
+               <div class="inputfield">
+                <label>العنوان </label>
+                <textarea class="textarea" id="adress" name="adress"></textarea>
+             </div> 
+            <div class="inputfield">
+                <label>الجهة</label>
+                <div class="custom_select" id="region" name="region">
+                    <select>
+                        <option value="">اختيار </option>
+                        <option value=""> جهة طنجة تطوان الحسيمة </option>
+                        <option value="">جهة الشرق </option>
+                        <option value=""> جهة فاس مكناس </option>
+                        <option value="">جهة بني ملال خنيفرة </option>
+                        <option value=""> جهة الرباط سلا القنيطرة </option>
+                        <option value="">جهة الدار البيضاء سطات </option>
+                        <option value=""> جهة مراكش آسفي </option>
+                        <option value="">جهة درعة تافيلالت  </option>
+                        <option value=""> جهة سوس ماسة</option>
+                        <option value="">جهة كلميم واد نون </option>
+                        <option value="">جهة العيون الساقية الحمراء   </option>
+                        <option value="">جهة الداخلة وادي الذهب </option>
+                      </select>
+                </div>
+             </div> 
+             <div class="inputfield">
+                <label>المقاطعة / المحافظة</label>
+                <div class="custom_select" id="Province" name="Province">
+            
+                    <select>
+                        <option value="">اختيار </option>
+                        <option value="">مقاطعة طنجة - أصيلة</option>
+                        <option value="">محافظة المضيق الفنيدق</option>
+                        <option value = ""> ولاية تطوان </option>
+                        <option value = ""> مقاطعة فحص أنجرة </option>
+                            <option value = ""> ولاية العرائش </option>
+                            <option value = ""> إقليم الحسيمة </option>
+                            <option value = ""> ولاية شفشاون </option>
+                            <option value = ""> ولاية وزان </option>
+                            <option value = ""> ولاية وجدة أنجاد </option>
+                            <option value = ""> محافظة الناظور </option>
+                            <option value = ""> مقاطعة الدريوش </option>
+                            <option value = ""> ولاية جرادة </option>
+                            <option value = ""> محافظة بركان </option>
+                            <option value = ""> مقاطعة تاوريرت </option>
+                            <option value = ""> ولاية جرسيف </option>
+                            <option value = ""> ولاية فجيج </option>
+                            <option value = ""> ولاية فاس </option>
+                            <option value = ""> محافظة مكناس </option>
+                            <option value = ""> محافظة الحاجب </option>
+                            <option value = ""> مقاطعة إفران </option>
+                            <option value = ""> ولاية مولاي يعقوب </option>
+                            <option value = ""> ولاية صفرو </option>
+                            <option value = ""> ولاية بولمان </option>
+                            <option value = ""> ولاية تاونات </option>
+                            <option value = ""> محافظة تازة </option>
+                            <option value = ""> عمالة الرباط </option>
+                            <option value = ""> ولاية البيع </option>
+                            <option value = ""> محافظة الصخيرات تمارة </option>
+                            <option value = ""> محافظة القنيطرة </option>
+                            <option value = ""> ولاية الخميسات </option>
+                            <option value = ""> ولاية سيدي قاسم </option>
+                            <option value = ""> ولاية سيدي سليمان </option>
+                            <option value = ""> ولاية بني ملال </option>
+                            <option value = ""> إقليم أزيلال </option>
+                            <option value = ""> ولاية فقيه بن صلاح </option>
+                            <option value = ""> محافظة خنيفرة </option>
+                            <option value = ""> محافظة خريبكة </option>
+                            <option value = ""> ولاية الدار البيضاء </option>
+                            <option value = ""> محافظة المحمدية </option>
+                            <option value = ""> محافظة الجديدة </option>
+                            <option value = ""> ولاية النواصر </option>
+                            <option value = ""> ولاية مديونة </option>
+                            <option value = ""> ولاية بنسليمان </option>
+                            <option value = ""> إقليم برشيد </option>
+                            <option value = ""> ولاية سطات </option>
+                            <option value = ""> ولاية سيدي بنور </option>
+                            <option value = ""> ولاية مراكش </option>
+                            <option value = ""> ولاية شيشاوة </option>
+                            <option value = ""> ولاية الحوز </option>
+                            <option value = ""> ولاية القلعة السراغنة </option>
+                            <option value = ""> محافظة الصويرة </option>
+                            <option value = ""> ولاية ريحامنة </option>
+                            <option value = ""> محافظة آسفي </option>
+                            <option value = ""> مقاطعة اليوسفية </option>
+                            <option value = ""> محافظة الرشيدية </option>
+                            <option value = ""> ولاية ورزازات </option>
+                            <option value = ""> مقاطعة ميدلت </option>
+                            <option value = ""> ولاية تنغير </option>
+                            <option value = ""> محافظة زاكورة </option>
+                            <option value = ""> محافظة أغادير إيدا - أوتانان </option>
+                            <option value = ""> ولاية إنزكان آيت ملول </option>
+                            <option value = ""> إقليم شتوكة آيت باها </option>
+                            <option value = ""> مقاطعة تارودانت </option>
+                            <option value = ""> ولاية تزنيت </option>
+                            <option value = ""> محافظة طاطا </option>
+                            <option value = ""> ولاية كلميم </option>
+                            <option value = ""> محافظة آسا زاغ </option>
+                            <option value = ""> إقليم طانطان </option>
+                            <option value = ""> ولاية سيدي إفني </option>
+                             <option value = ""> ولاية العيون </option>
+                             <option value = ""> ولاية بوجدور </option>
+                             <option value = ""> ولاية طرفاية </option>
+                             <option value = ""> مقاطعة السمارا </option>
+                             <option value = ""> محافظة واد الدهب </option>
+                             <option value = ""> مقاطعة أوسرد </option>
+                          </select>
+                </div>
+             </div> 
+             <input type="button" name="previous" class="previous action-button-previous" value="السابق"/>
+             <input type="button" name="next" class="next action-button" value="التالي"/>
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">المرحلة 3</h2>
+                <h3 class="fs-subtitle">العنوان</h3>
+                <div class="inputfield">
+                    <label>الجماعة</label>
+                    <div class="custom_select" id="Commune" name="Commune">
+                        <select>
+                                <option value="">اختيار </option>
+                                <option value="">اختيار </option>
+                                <option value="">مقاطعة طنجة - أصيلة</option>
+                                <option value="">محافظة المضيق الفنيدق</option>
+                                <option value = ""> ولاية تطوان </option>
+                                <option value = ""> مقاطعة فحص أنجرة </option>
+                                    <option value = ""> ولاية العرائش </option>
+                                    <option value = ""> إقليم الحسيمة </option>
+                                    <option value = ""> ولاية شفشاون </option>
+                                    <option value = ""> ولاية وزان </option>
+                                    <option value = ""> ولاية وجدة أنجاد </option>
+                                    <option value = ""> محافظة الناظور </option>
+                                    <option value = ""> مقاطعة الدريوش </option>
+                                    <option value = ""> ولاية جرادة </option>
+                                    <option value = ""> محافظة بركان </option>
+                                    <option value = ""> مقاطعة تاوريرت </option>
+                                    <option value = ""> ولاية جرسيف </option>
+                                    <option value = ""> ولاية فجيج </option>
+                                    <option value = ""> ولاية فاس </option>
+                                    <option value = ""> محافظة مكناس </option>
+                                    <option value = ""> محافظة الحاجب </option>
+                                    <option value = ""> مقاطعة إفران </option>
+                                    <option value = ""> ولاية مولاي يعقوب </option>
+                                    <option value = ""> ولاية صفرو </option>
+                                    <option value = ""> ولاية بولمان </option>
+                                    <option value = ""> ولاية تاونات </option>
+                                    <option value = ""> محافظة تازة </option>
+                                    <option value = ""> عمالة الرباط </option>
+                                    <option value = ""> ولاية البيع </option>
+                                    <option value = ""> محافظة الصخيرات تمارة </option>
+                                    <option value = ""> محافظة القنيطرة </option>
+                                    <option value = ""> ولاية الخميسات </option>
+                                    <option value = ""> ولاية سيدي قاسم </option>
+                                    <option value = ""> ولاية سيدي سليمان </option>
+                                    <option value = ""> ولاية بني ملال </option>
+                                    <option value = ""> إقليم أزيلال </option>
+                                    <option value = ""> ولاية فقيه بن صلاح </option>
+                                    <option value = ""> محافظة خنيفرة </option>
+                                    <option value = ""> محافظة خريبكة </option>
+                                    <option value = ""> ولاية الدار البيضاء </option>
+                                    <option value = ""> محافظة المحمدية </option>
+                                    <option value = ""> محافظة الجديدة </option>
+                                    <option value = ""> ولاية النواصر </option>
+                                    <option value = ""> ولاية مديونة </option>
+                                    <option value = ""> ولاية بنسليمان </option>
+                                    <option value = ""> إقليم برشيد </option>
+                                    <option value = ""> ولاية سطات </option>
+                                    <option value = ""> ولاية سيدي بنور </option>
+                                    <option value = ""> ولاية مراكش </option>
+                                    <option value = ""> ولاية شيشاوة </option>
+                                    <option value = ""> ولاية الحوز </option>
+                                    <option value = ""> ولاية القلعة السراغنة </option>
+                                    <option value = ""> محافظة الصويرة </option>
+                                    <option value = ""> ولاية ريحامنة </option>
+                                    <option value = ""> محافظة آسفي </option>
+                                    <option value = ""> مقاطعة اليوسفية </option>
+                                    <option value = ""> محافظة الرشيدية </option>
+                                    <option value = ""> ولاية ورزازات </option>
+                                    <option value = ""> مقاطعة ميدلت </option>
+                                    <option value = ""> ولاية تنغير </option>
+                                    <option value = ""> محافظة زاكورة </option>
+                                    <option value = ""> محافظة أغادير إيدا - أوتانان </option>
+                                    <option value = ""> ولاية إنزكان آيت ملول </option>
+                                    <option value = ""> إقليم شتوكة آيت باها </option>
+                                    <option value = ""> مقاطعة تارودانت </option>
+                                    <option value = ""> ولاية تزنيت </option>
+                                    <option value = ""> محافظة طاطا </option>
+                                    <option value = ""> ولاية كلميم </option>
+                                    <option value = ""> محافظة آسا زاغ </option>
+                                    <option value = ""> إقليم طانطان </option>
+                                    <option value = ""> ولاية سيدي إفني </option>
+                                     <option value = ""> ولاية العيون </option>
+                                     <option value = ""> ولاية بوجدور </option>
+                                     <option value = ""> ولاية طرفاية </option>
+                                     <option value = ""> مقاطعة السمارا </option>
+                                     <option value = ""> محافظة واد الدهب </option>
+                                     <option value = ""> مقاطعة أوسرد </option>
+                                 
+                          </select>
+                        </div>
+                        
+                 </div> 
+                  <div class="inputfield">
+                    <label> الرمز البريدي</label>
+                      <input type="text" class="input" id="code" name="code">
+                   </div> 
+                   <div class="inputfield">
+                    <label>المستوى الدراسي</label>
+                    <div class="custom_select" id="scolaire" name="Scolaire">
+                        <select>
+                            <option value="">اختيار </option>
+                    <option value="">-الباكلوريا </option>
+                    <option value="">الباكلوريا</option>
+                    <option value="">+الباكلوريا</option>
+                
+                          </select>
+                        </div>
+                        
+                 </div> 
+                   
+                 <div class="inputfield">
+                    <label>هل أنت؟</label>
+                    <div class="custom_select" id="travail" name="travail">
+                        <select>
+                            <option value="">اختيار </option>    
+                    <option value="">عاطل عن العمل</option>
+                    <option value=""> تبحث عن عمل </option>
+                          </select>
+                        </div> </div>
+                  <div class="inputfield terms">
+                      <label class="check">
+                        <input type="checkbox">
+                        <span class="checkmark" id="conditiont"></span>
+                      </label>
+                      <p>لقد قرأت وقبلت<a href="">   الشروط العامة.</a></p>
+                   </div> 
+                
+                 
+        
+                <input type="button" name="previous" class="previous action-button-previous" value="السابق"/>
+                <input type="submit" name="Enregistrer" class="submit action-button" value="التسجيل"/>
+            </fieldset>
+        </form>
+        
+      
+    </div>
+</div> </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="js/script.js"></script>
+
+<a href="#" class="back-to-top"><i class="fa-solid fa-angles-up"></i></a>
+<!-- footer de la page -->
+<footer class="footer">
+  
+             
+      
+  
+  <p class="Copyright">© Tous droits réservés MAG POWER 2020 </p>
+</div>
+
+</footer>
+
+    </footer>
+     <div class="Lang-bas">
+    <div class="selected-lang1">
+       
+        <span class="lang-txt"><a href="S'inscrire.html" class="de">Français</a></span> 
+    </div>
+   
+    <div class="selected-lang1">
+      
+        <span class="lang-txt"></span><a href="التسجيل.html" classe="de">العربية</a>
+    </div>
+    </div>
+</footer>
+
+
+ 
+</body>
+</html>
